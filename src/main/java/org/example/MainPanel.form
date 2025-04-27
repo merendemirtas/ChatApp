@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="org.example.MainPanel">
+  <grid id="27dc6" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1004" height="604"/>
+    </constraints>
+    <properties>
+      <background color="-12431215"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="6375" binding="panel" layout-manager="CardLayout" hgap="0" vgap="0">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-984085"/>
+          <maximumSize width="1000" height="600"/>
+          <minimumSize width="1000" height="600"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="7de78" layout-manager="GridLayoutManager" row-count="5" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <card name="Card1"/>
+            </constraints>
+            <properties>
+              <background color="-12431215"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="bdccc" class="javax.swing.JButton" binding="b11">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="100" height="100"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-13948119"/>
+                  <foreground color="-16777216"/>
+                  <text value="New Chat"/>
+                </properties>
+              </component>
+              <grid id="c49e9" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="1" row-span="5" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <grid id="7ef2" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="0" column="1" row-span="4" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-12431215"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <grid id="1b287" binding="messagePanel" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                            <preferred-size width="800" height="800"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-12431215"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <grid id="b752b" layout-manager="GridLayoutManager" row-count="1" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                            <margin top="0" left="0" bottom="0" right="0"/>
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                                <minimum-size width="800" height="100"/>
+                                <preferred-size width="800" height="100"/>
+                                <maximum-size width="800" height="100"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <background color="-12431215"/>
+                            </properties>
+                            <border type="none"/>
+                            <children>
+                              <component id="3bf4" class="javax.swing.JLabel" binding="groupName">
+                                <constraints>
+                                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                                    <minimum-size width="120" height="50"/>
+                                    <preferred-size width="120" height="50"/>
+                                  </grid>
+                                </constraints>
+                                <properties>
+                                  <font size="24"/>
+                                  <text value=""/>
+                                </properties>
+                              </component>
+                              <hspacer id="1ce3d">
+                                <constraints>
+                                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                              </hspacer>
+                              <hspacer id="d440a">
+                                <constraints>
+                                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                              </hspacer>
+                            </children>
+                          </grid>
+                          <grid id="481f1" binding="messagesPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                            <margin top="0" left="0" bottom="0" right="0"/>
+                            <constraints>
+                              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                                <minimum-size width="800" height="700"/>
+                                <preferred-size width="800" height="700"/>
+                                <maximum-size width="800" height="700"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <background color="-1118482"/>
+                              <foreground color="-16777216"/>
+                            </properties>
+                            <border type="none"/>
+                            <children/>
+                          </grid>
+                        </children>
+                      </grid>
+                      <component id="9131b" class="javax.swing.JButton" binding="send">
+                        <constraints>
+                          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="80" height="40"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-1118482"/>
+                          <text value="Send"/>
+                        </properties>
+                      </component>
+                      <component id="7aff7" class="javax.swing.JTextField" binding="textField">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="400" height="40"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-1118482"/>
+                          <caretColor color="-984085"/>
+                          <selectionColor color="-984085"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="1d764" binding="chatPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="0" column="0" row-span="4" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <preferred-size width="300" height="600"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-12431215"/>
+                      <foreground color="-327685"/>
+                    </properties>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
+                </children>
+              </grid>
+              <component id="98243" class="javax.swing.JButton" binding="b12">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="100" height="100"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-327685"/>
+                  <foreground color="-16777216"/>
+                  <text value="Join Chat"/>
+                </properties>
+              </component>
+              <component id="26209" class="javax.swing.JButton" binding="b13">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="100" height="100"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-984085"/>
+                  <foreground color="-16777216"/>
+                  <text value="Starred Messages"/>
+                </properties>
+              </component>
+              <component id="9944" class="javax.swing.JButton" binding="b14">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="100" height="100"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-984085"/>
+                  <foreground color="-16777216"/>
+                  <text value="Settings"/>
+                </properties>
+              </component>
+              <vspacer id="1e609">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
