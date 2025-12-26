@@ -27,6 +27,7 @@ Database integration
 MVC-based modular structure
 
 
+
 🛠 Technologies Used
 
 Java
@@ -39,6 +40,7 @@ MVC Design Pattern
 
 
 
+
 BasePanel.java
 
 DBConnection.java
@@ -48,6 +50,7 @@ Main.java
 sessionManager.java
 
 PasswordHasher.java
+
 
 
 Login
