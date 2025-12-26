@@ -40,25 +40,33 @@ MVC Design Pattern
 
 
 BasePanel.java
+
 DBConnection.java
+
 Main.java
+
 sessionManager.java
+
 PasswordHasher.java
+
 
 Login
  ├── LoginPanel.java
  ├── LoginPanel.form
  └── LoginController.java
 
+
 Signup (Logup)
  ├── LogupPanel.java
  ├── LogupPanel.form
  └── LogupController.java
 
+
 Main Panel
  ├── MainPanel.java
  ├── MainPanel.form
  └── MainPanelController.java
+
 
 Chat
  ├── NewChatPanel.java
@@ -68,15 +76,18 @@ Chat
  ├── JoinChatPanel.form
  └── JoinChatController.java
 
+
 Starred Messages
  ├── StarredMessagesPanel.java
  ├── StarredMessagesPanel.form
  └── StarredMessagesController.java
 
+
 Settings
  ├── SettingsPanel.java
  ├── SettingsPanel.form
  └── SettingsController.java
+
 
 
  🧩 Architecture Overview
